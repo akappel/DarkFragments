@@ -9,14 +9,6 @@
     <sprite>sprites\spr_player</sprite>
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_slant</sprite>
-    <scripts name="Player">
-      <script>scripts\scr_player_create.gml</script>
-      <script>scripts\scr_player_step.gml</script>
-      <script>scripts\scr_player_draw.gml</script>
-    </scripts>
-    <scripts name="Slant">
-      <script>scripts\scr_slant_create.gml</script>
-    </scripts>
     <sprites name="Fonts">
       <sprite>sprites\Pourquoi</sprite>
       <sprite>sprites\BasicTitleFont</sprite>
@@ -26,6 +18,13 @@
     <background>background\bgPauseMenu</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_player_collision_collidable.gml</script>
+    <script>scripts\scr_player_create.gml</script>
+    <script>scripts\scr_player_draw.gml</script>
+    <script>scripts\scr_player_step.gml</script>
+    <script>scripts\scr_slant_create.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\obj_player</object>
     <object>objects\obj_ground</object>
