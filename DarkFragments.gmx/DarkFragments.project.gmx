@@ -10,13 +10,21 @@
       <sprite>sprites\Pourquoi</sprite>
       <sprite>sprites\BasicTitleFont</sprite>
     </sprites>
+    <sprites name="UI">
+      <sprite>sprites\spr_heart</sprite>
+      <sprite>sprites\spr_bar</sprite>
+      <sprite>sprites\spr_headslot</sprite>
+      <sprite>sprites\spr_darkfragment</sprite>
+      <sprite>sprites\spr_HUDcomplete</sprite>
+      <sprite>sprites\spr_HUDincomplete</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bgPauseMenu</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
-    <object>objects\oController</object>
+    <object>objects\obj_controller</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Level_test</room>
