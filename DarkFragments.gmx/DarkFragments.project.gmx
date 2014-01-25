@@ -30,6 +30,7 @@
     <object>objects\obj_ground</object>
     <object>objects\obj_wall</object>
     <object>objects\obj_slant</object>
+    <object>objects\oController</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_test</room>
