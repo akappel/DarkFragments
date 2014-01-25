@@ -23,8 +23,15 @@
     <background>background\bgPauseMenu</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <scripts name="UI">
+      <script>scripts\scr_ui_create.gml</script>
+      <script>scripts\scr_ui_drawgui.gml</script>
+    </scripts>
+  </scripts>
   <objects name="objects">
     <object>objects\obj_controller</object>
+    <object>objects\obj_gui</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Level_test</room>
