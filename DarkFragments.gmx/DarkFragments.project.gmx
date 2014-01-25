@@ -7,7 +7,7 @@
   <sounds name="sound"/>
   <sprites name="sprites"/>
   <backgrounds name="background">
-    <background>background\tempPauseMenu</background>
+    <background>background\bgPauseMenu</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
