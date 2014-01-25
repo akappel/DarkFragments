@@ -6,8 +6,17 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites"/>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\tempPauseMenu</background>
+  </backgrounds>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\oController</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\Level_test</room>
+    <room>rooms\PauseMenu</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
